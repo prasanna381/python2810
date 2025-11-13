@@ -74,3 +74,13 @@ match choice:
     case _:
         print("invalid")
 
+#nested conditions
+age=20
+has_id = True
+if age >=21:
+    if has_id:
+        print("you are allowed to enter")
+    else:
+        print("you need id to enter")
+    #else:
+        #print("you are young to enter")
