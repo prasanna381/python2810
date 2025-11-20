@@ -49,7 +49,34 @@ while i<=20:
     print(i)
     i+=2
 
-i = 6
-while i % 2 ==0:
+
+while i % 2 == 0:
     print(i)
     i+=1
+
+#nested for loop
+#math table
+
+for i in range(1,6):
+  for j in range(1,11):
+    print(f"{i}*{j} = {i*j}")
+
+#nested while loop
+#math table
+#break
+for i in range(5):
+    if i == 3:
+        break 
+    print(i)
+print('=====')
+#continue
+for i in range(5):
+    if i== 3:
+      continue #skip loop when i=3
+    print(i)
+
+#pass
+    if (5>9):
+        pass
+
+  
